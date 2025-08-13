@@ -41,8 +41,10 @@
         android:layout_height="187dp"
         android:contentDescription="@string/hello_kitty"
         android:src="@drawable/hello_kitty"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="64dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="109dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
